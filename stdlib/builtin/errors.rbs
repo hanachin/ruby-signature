@@ -172,6 +172,7 @@ end
 # 
 #     LocalJumpError: unexpected return
 class LocalJumpError < StandardError
+  def exit_value: () -> untyped
 end
 
 # Raised when a given name is invalid or undefined.
